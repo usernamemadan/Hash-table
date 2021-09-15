@@ -36,9 +36,12 @@ public class MyLinkedList<K> {
 	}
 	
 	
-	public String print() {
+
+	@Override
+	public String toString() {
 		return "My Nodes: "+head;
 	}
+	
 	
 }
 
